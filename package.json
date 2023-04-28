@@ -13,11 +13,10 @@
 		"url": "https://github.com/team-demoAlpha/logistics-crm/issues"
 	},
 	"workspaces": [
-		"packages/app",
-		"packages/server"
+		"packages/*"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {}
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"app:dev": "npm run dev -w @logistics-crm/app"
+	}
 }
