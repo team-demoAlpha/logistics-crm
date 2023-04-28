@@ -1,0 +1,23 @@
+{
+	"name": "logistics-crm",
+	"version": "0.0.1",
+	"description": "App and server for logistics CRM project",
+	"author": "demoAlpha",
+	"license": "ISC",
+	"homepage": "https://github.com/team-demoAlpha/logistics-crm#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/team-demoAlpha/logistics-crm.git"
+	},
+	"bugs": {
+		"url": "https://github.com/team-demoAlpha/logistics-crm/issues"
+	},
+	"workspaces": [
+		"packages/app",
+		"packages/server"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {}
+}

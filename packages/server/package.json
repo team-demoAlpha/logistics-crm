@@ -1,0 +1,12 @@
+{
+	"name": "logistics-crm-server",
+	"version": "0.0.1",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {}
+}
